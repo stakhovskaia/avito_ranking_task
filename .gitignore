@@ -1,0 +1,35 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
+
+# Исходные данные соревнования
+competition/train/
+competition/val/
+competition/test/
+competition/sample_submission.parquet
+baseline/
+sample_submission.parquet
+
+# Артефакты моделей
+models/*
+!models/.gitkeep
+
+# Временные файлы
+*.log
+*.tmp
